@@ -1,0 +1,40 @@
+{
+  "updateId": {
+    "provider": "MICROCHIP",
+    "name": "SAME54-Leaf",
+    "version": "2.0.0"
+  },
+  "isDeployable": false,
+  "compatibility": [
+    {
+      "model": "SAME54-Leaf",
+      "manufacturer": "MICROCHIP"
+    }
+  ],
+  "instructions": {
+    "steps": [
+      {
+        "type": "inline",
+        "description": "Leaf Firmware Update",
+        "handler": "microsoft/swupdate:1",
+        "files": [
+          "leaf_firmware_2.0.0.bin"
+        ],
+        "handlerProperties": {
+          "installedCriteria": "2.0.0"
+        }
+      }
+    ]
+  },
+  "files": [
+    {
+      "filename": "leaf_firmware_2.0.0.bin",
+      "sizeInBytes": 19,
+      "hashes": {
+        "sha256": "W6kj/e12I8FKhvtQstP7qaOp3kOCth5OztJAx3Hst10="
+      }
+    }
+  ],
+  "createdDateTime": "2023-05-06T19:06:48.1117550Z",
+  "manifestVersion": "4.0"
+}

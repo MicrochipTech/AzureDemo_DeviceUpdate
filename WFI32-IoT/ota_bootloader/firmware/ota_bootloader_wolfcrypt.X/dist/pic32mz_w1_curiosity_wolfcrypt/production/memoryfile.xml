@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/pic32mz_w1_curiosity_wolfcrypt/production/ota_bootloader_wolfcrypt.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>132224</length>                 
+      <used>70240</used>                     
+      <free>61984</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>65536</length>                 
+      <used>5977</used>                     
+      <free>59559</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

@@ -1,2 +1,2 @@
 # AzureDemo_DeviceUpdate
-"IoT Made Easy!" - Azure Device Update
+"IoT Made Easy!" - Microsoft Azure Device Update (ADU)
