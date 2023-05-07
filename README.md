@@ -17,8 +17,8 @@ Code examples are provided for demonstrating Azure Device Update (ADU) on the [S
 
 Follow the procedures in the provided user guides based on the development board(s) of interest:
 
-- [ATSAME54-XPRO User Guide](./ATSAME54-XPRO/UserGuide_DeviceUpdate_ATSAME54-XPRO.docx)
-- [WFI32-IoT User Guide](./WFI32-IoT/UserGuide_DeviceUpdate_WFI32-IoT.docx)
+- [ATSAME54-XPRO](./ATSAME54-XPRO/UserGuide_DeviceUpdate_ATSAME54-XPRO.docx)
+- [WFI32-IoT](./WFI32-IoT/UserGuide_DeviceUpdate_WFI32-IoT.docx)
 
 
 

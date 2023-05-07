@@ -104,410 +104,410 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/same54_lib/atmel_start.o: same54_lib/atmel_start.c  .generated_files/flags/default/e426cb5e89674e40959192c7c5f9796062c71175 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/atmel_start.o: same54_lib/atmel_start.c  .generated_files/flags/default/6520e8c327f5ae4d210935e002e0068bb2b5157e .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/atmel_start.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/atmel_start.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/atmel_start.o.d" -o ${OBJECTDIR}/same54_lib/atmel_start.o same54_lib/atmel_start.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/driver_init.o: same54_lib/driver_init.c  .generated_files/flags/default/b7109da1d179b210f181cf689ef8eb90e93dff68 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/driver_init.o: same54_lib/driver_init.c  .generated_files/flags/default/c30b16635f1cd5fa07acd99b648d1fd509beedfd .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/driver_init.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/driver_init.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/driver_init.o.d" -o ${OBJECTDIR}/same54_lib/driver_init.o same54_lib/driver_init.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/ethernet_phy.o: same54_lib/ethernet_phy.c  .generated_files/flags/default/45b74885af17955b0981ed6e28f6cfd01742c9ae .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/ethernet_phy.o: same54_lib/ethernet_phy.c  .generated_files/flags/default/2db21fa9fa153559119802fd57d467fab5e6bc00 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/ethernet_phy.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/ethernet_phy.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/ethernet_phy.o.d" -o ${OBJECTDIR}/same54_lib/ethernet_phy.o same54_lib/ethernet_phy.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/ethernet_phy_main.o: same54_lib/ethernet_phy_main.c  .generated_files/flags/default/32945605850e0f372578fccf272e73e95b06a63b .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/ethernet_phy_main.o: same54_lib/ethernet_phy_main.c  .generated_files/flags/default/686e7329c92b7264242a55da253d87c016428518 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/ethernet_phy_main.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/ethernet_phy_main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/ethernet_phy_main.o.d" -o ${OBJECTDIR}/same54_lib/ethernet_phy_main.o same54_lib/ethernet_phy_main.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_atomic.o: same54_lib/hal_atomic.c  .generated_files/flags/default/31a020a15fd8999abd7d62c27f68c0e33d5d865b .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_atomic.o: same54_lib/hal_atomic.c  .generated_files/flags/default/16ca0598bf2bd3d905ab51a571883671426e9d3 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_atomic.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_atomic.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_atomic.o.d" -o ${OBJECTDIR}/same54_lib/hal_atomic.o same54_lib/hal_atomic.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_cache.o: same54_lib/hal_cache.c  .generated_files/flags/default/db09bfccd621f4b9419a7ecb8835b42c4c934e9 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_cache.o: same54_lib/hal_cache.c  .generated_files/flags/default/e7fae9a6fd154bf74c38c5b1eb7cd484a8433612 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_cache.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_cache.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_cache.o.d" -o ${OBJECTDIR}/same54_lib/hal_cache.o same54_lib/hal_cache.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_delay.o: same54_lib/hal_delay.c  .generated_files/flags/default/af0e811c3837720596a8eabd84bd153ebd43c834 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_delay.o: same54_lib/hal_delay.c  .generated_files/flags/default/1d47d866417bd9331c021795d1b5d643043d2d0a .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_delay.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_delay.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_delay.o.d" -o ${OBJECTDIR}/same54_lib/hal_delay.o same54_lib/hal_delay.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_gpio.o: same54_lib/hal_gpio.c  .generated_files/flags/default/63e30ef13cfb58e70e67857786d51eb2c9d64ed .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_gpio.o: same54_lib/hal_gpio.c  .generated_files/flags/default/6c55270f5bcfbf99aa4ea6b45216fce0729930a5 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_gpio.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_gpio.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_gpio.o.d" -o ${OBJECTDIR}/same54_lib/hal_gpio.o same54_lib/hal_gpio.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o: same54_lib/hal_i2c_m_sync.c  .generated_files/flags/default/9a05b35596b868122d79eaca60898a34b51bef0d .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o: same54_lib/hal_i2c_m_sync.c  .generated_files/flags/default/b3bb24a9ffe5d1c73f958097bda60e3026620c86 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o.d" -o ${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o same54_lib/hal_i2c_m_sync.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_init.o: same54_lib/hal_init.c  .generated_files/flags/default/c15a507e2112cd249c8556cf46f81e13407a1094 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_init.o: same54_lib/hal_init.c  .generated_files/flags/default/3316621c061bb8897a5d7bd9b704564a56b661b8 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_init.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_init.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_init.o.d" -o ${OBJECTDIR}/same54_lib/hal_init.o same54_lib/hal_init.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_io.o: same54_lib/hal_io.c  .generated_files/flags/default/985432611d239834549c895bbb21cbe2bde81ffa .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_io.o: same54_lib/hal_io.c  .generated_files/flags/default/9769492d60bc97db58ee985da1bc6333ae090296 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_io.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_io.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_io.o.d" -o ${OBJECTDIR}/same54_lib/hal_io.o same54_lib/hal_io.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_mac_async.o: same54_lib/hal_mac_async.c  .generated_files/flags/default/8e6dec412e1c9ed98a580a8f9e90313d0b6af2db .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_mac_async.o: same54_lib/hal_mac_async.c  .generated_files/flags/default/9cbc2f5ad8c8dec63b94212ee70ff996d5877111 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_mac_async.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_mac_async.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_mac_async.o.d" -o ${OBJECTDIR}/same54_lib/hal_mac_async.o same54_lib/hal_mac_async.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_sleep.o: same54_lib/hal_sleep.c  .generated_files/flags/default/fc3da5516d88d4d7a85d25024dcd8db92215daf7 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_sleep.o: same54_lib/hal_sleep.c  .generated_files/flags/default/bc5023c73c433172da9f121611e2f3c632e08d5c .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_sleep.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_sleep.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_sleep.o.d" -o ${OBJECTDIR}/same54_lib/hal_sleep.o same54_lib/hal_sleep.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_usart_sync.o: same54_lib/hal_usart_sync.c  .generated_files/flags/default/b4fbca41aab03fe4a334b86d16c820fa826d1957 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_usart_sync.o: same54_lib/hal_usart_sync.c  .generated_files/flags/default/87afbb02246062718068b3b1b38b18b918decdd6 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_usart_sync.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_usart_sync.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_usart_sync.o.d" -o ${OBJECTDIR}/same54_lib/hal_usart_sync.o same54_lib/hal_usart_sync.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_cmcc.o: same54_lib/hpl_cmcc.c  .generated_files/flags/default/6589f0d01aed6107a470220845055569969fcd84 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_cmcc.o: same54_lib/hpl_cmcc.c  .generated_files/flags/default/6f3c728b6e5e94bcea3df3d67371c348f7a6f231 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_cmcc.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_cmcc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_cmcc.o.d" -o ${OBJECTDIR}/same54_lib/hpl_cmcc.o same54_lib/hpl_cmcc.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_core_m4.o: same54_lib/hpl_core_m4.c  .generated_files/flags/default/862a415224c081d8f2b1cdaf938699cb86fbefdf .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_core_m4.o: same54_lib/hpl_core_m4.c  .generated_files/flags/default/174d862bcfe20fa9a5d6b3c116d20a4602185aad .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_core_m4.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_core_m4.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_core_m4.o.d" -o ${OBJECTDIR}/same54_lib/hpl_core_m4.o same54_lib/hpl_core_m4.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_dmac.o: same54_lib/hpl_dmac.c  .generated_files/flags/default/5df724a61e923073bd60a842a8f3cb72050cadeb .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_dmac.o: same54_lib/hpl_dmac.c  .generated_files/flags/default/be0fb0bce55a06fd8d7d949899d3fb2fbfac4cc2 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_dmac.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_dmac.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_dmac.o.d" -o ${OBJECTDIR}/same54_lib/hpl_dmac.o same54_lib/hpl_dmac.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_gclk.o: same54_lib/hpl_gclk.c  .generated_files/flags/default/25e5cffe7bdace1f22d37271e3ad7b5c8e030247 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_gclk.o: same54_lib/hpl_gclk.c  .generated_files/flags/default/58497b4c777488cf417674dce6cbefce3aebea0f .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_gclk.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_gclk.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_gclk.o.d" -o ${OBJECTDIR}/same54_lib/hpl_gclk.o same54_lib/hpl_gclk.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_gmac.o: same54_lib/hpl_gmac.c  .generated_files/flags/default/247ad279a60827fed0c6181e9f37292451e7bf56 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_gmac.o: same54_lib/hpl_gmac.c  .generated_files/flags/default/98c411ac41acc444e723f34f19a03678f7f6ddad .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_gmac.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_gmac.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_gmac.o.d" -o ${OBJECTDIR}/same54_lib/hpl_gmac.o same54_lib/hpl_gmac.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_init.o: same54_lib/hpl_init.c  .generated_files/flags/default/3ea40e61a24ff0898f1acb20aa70b483d3855159 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_init.o: same54_lib/hpl_init.c  .generated_files/flags/default/1689f64960b1abde8bb0a09c7114397a42992207 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_init.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_init.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_init.o.d" -o ${OBJECTDIR}/same54_lib/hpl_init.o same54_lib/hpl_init.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_mclk.o: same54_lib/hpl_mclk.c  .generated_files/flags/default/2b2d8ea7d04531ddb06f4557e97684820e8ef73 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_mclk.o: same54_lib/hpl_mclk.c  .generated_files/flags/default/115b63744e1c7f4b19de4c6c91a5d82c3b640ede .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_mclk.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_mclk.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_mclk.o.d" -o ${OBJECTDIR}/same54_lib/hpl_mclk.o same54_lib/hpl_mclk.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o: same54_lib/hpl_osc32kctrl.c  .generated_files/flags/default/e3a58fa5504cc22e57b2c55a44139fac28bc64ba .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o: same54_lib/hpl_osc32kctrl.c  .generated_files/flags/default/40fd7cb3320f3a11db429142c076d2d12fb1556a .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o.d" -o ${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o same54_lib/hpl_osc32kctrl.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_oscctrl.o: same54_lib/hpl_oscctrl.c  .generated_files/flags/default/527d17241ec8f510d6ae2843680122498b74bd6f .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_oscctrl.o: same54_lib/hpl_oscctrl.c  .generated_files/flags/default/6f692457f7f369637794fcb6ebc02567c11111ae .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_oscctrl.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_oscctrl.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_oscctrl.o.d" -o ${OBJECTDIR}/same54_lib/hpl_oscctrl.o same54_lib/hpl_oscctrl.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_pm.o: same54_lib/hpl_pm.c  .generated_files/flags/default/9b44672f599c24a275bd7372d57d83cf09d540de .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_pm.o: same54_lib/hpl_pm.c  .generated_files/flags/default/56206d99a5b6d03d4d369a3705173398ff5e28ec .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_pm.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_pm.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_pm.o.d" -o ${OBJECTDIR}/same54_lib/hpl_pm.o same54_lib/hpl_pm.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_ramecc.o: same54_lib/hpl_ramecc.c  .generated_files/flags/default/a349fe01b8700a564b78647a324fe1f2e2e8299f .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_ramecc.o: same54_lib/hpl_ramecc.c  .generated_files/flags/default/b4c0c4ee795ea6f2fb0814c5934e4cf09846eb18 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_ramecc.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_ramecc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_ramecc.o.d" -o ${OBJECTDIR}/same54_lib/hpl_ramecc.o same54_lib/hpl_ramecc.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_sercom.o: same54_lib/hpl_sercom.c  .generated_files/flags/default/a59c5549766cb641750fb4e98405a6e982d7925 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_sercom.o: same54_lib/hpl_sercom.c  .generated_files/flags/default/f5ae38784eedb08052b2c2b987aaa671da57f764 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_sercom.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_sercom.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_sercom.o.d" -o ${OBJECTDIR}/same54_lib/hpl_sercom.o same54_lib/hpl_sercom.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/read.o: same54_lib/read.c  .generated_files/flags/default/7c359cb67590008b0f88880216f5fa8af2b7e421 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/read.o: same54_lib/read.c  .generated_files/flags/default/5a94101d6abdd9bdaf0d5455a8fb1d535f7509e5 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/read.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/read.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/read.o.d" -o ${OBJECTDIR}/same54_lib/read.o same54_lib/read.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/stdio_io.o: same54_lib/stdio_io.c  .generated_files/flags/default/d615964aecce35d6cd71a3d27d2930224242625f .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/stdio_io.o: same54_lib/stdio_io.c  .generated_files/flags/default/a2097e8516024d0e611e86b61475148a99b19f5c .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/stdio_io.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/stdio_io.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/stdio_io.o.d" -o ${OBJECTDIR}/same54_lib/stdio_io.o same54_lib/stdio_io.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/stdio_start.o: same54_lib/stdio_start.c  .generated_files/flags/default/e0be7f3c1b234bc741fca109cea41d8cda673c97 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/stdio_start.o: same54_lib/stdio_start.c  .generated_files/flags/default/44c5d4e4a2b4bacecceb8b8830de3361b7da8eb6 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/stdio_start.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/stdio_start.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/stdio_start.o.d" -o ${OBJECTDIR}/same54_lib/stdio_start.o same54_lib/stdio_start.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/system_same54.o: same54_lib/system_same54.c  .generated_files/flags/default/7df0e8be7c244b2308d5060f24c024c13f083b2c .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/system_same54.o: same54_lib/system_same54.c  .generated_files/flags/default/8c44e46a7d21535df7a8606570dde025765512de .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/system_same54.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/system_same54.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/system_same54.o.d" -o ${OBJECTDIR}/same54_lib/system_same54.o same54_lib/system_same54.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/write.o: same54_lib/write.c  .generated_files/flags/default/94728cb1c0742ddffed1c0e22f4d66ef20291ad9 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/write.o: same54_lib/write.c  .generated_files/flags/default/94725a952d93209bb630f34500370ed8b8f18346 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/write.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/write.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/write.o.d" -o ${OBJECTDIR}/same54_lib/write.o same54_lib/write.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/driver_init_flash.o: same54_lib/driver_init_flash.c  .generated_files/flags/default/1892afc7754432a241efaf5ab33f2f192473e00b .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/driver_init_flash.o: same54_lib/driver_init_flash.c  .generated_files/flags/default/404726989795be60793c3bbc21855e163f6a33e7 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/driver_init_flash.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/driver_init_flash.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/driver_init_flash.o.d" -o ${OBJECTDIR}/same54_lib/driver_init_flash.o same54_lib/driver_init_flash.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_flash.o: same54_lib/hal_flash.c  .generated_files/flags/default/3a2a60977c888315f08416f92b50e36e05114251 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_flash.o: same54_lib/hal_flash.c  .generated_files/flags/default/1a3eeeca527ee29bf18a7e94366b3e0159b38e9f .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_flash.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_flash.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_flash.o.d" -o ${OBJECTDIR}/same54_lib/hal_flash.o same54_lib/hal_flash.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_nvmctrl.o: same54_lib/hpl_nvmctrl.c  .generated_files/flags/default/a8a41404307747c1ed5dda0dbec771201a7087f9 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_nvmctrl.o: same54_lib/hpl_nvmctrl.c  .generated_files/flags/default/942418d92684aac63c5667b1ac2783dd40bd1edf .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_nvmctrl.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_nvmctrl.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_nvmctrl.o.d" -o ${OBJECTDIR}/same54_lib/hpl_nvmctrl.o same54_lib/hpl_nvmctrl.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
 else
-${OBJECTDIR}/same54_lib/atmel_start.o: same54_lib/atmel_start.c  .generated_files/flags/default/b8cd0e4393c2b61fd9e037075533fe8e562f681e .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/atmel_start.o: same54_lib/atmel_start.c  .generated_files/flags/default/fc1047e04824ae81482f7ae01f5340c39642c501 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/atmel_start.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/atmel_start.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/atmel_start.o.d" -o ${OBJECTDIR}/same54_lib/atmel_start.o same54_lib/atmel_start.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/driver_init.o: same54_lib/driver_init.c  .generated_files/flags/default/205427fe20db431d536caf9ed70dd089d854f71b .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/driver_init.o: same54_lib/driver_init.c  .generated_files/flags/default/20ac374c77c7c46a23f7f47eca3cc0a2d96ea9b4 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/driver_init.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/driver_init.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/driver_init.o.d" -o ${OBJECTDIR}/same54_lib/driver_init.o same54_lib/driver_init.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/ethernet_phy.o: same54_lib/ethernet_phy.c  .generated_files/flags/default/f7a89906ba7f83ba3628a1a20e9d1ed03b7dd660 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/ethernet_phy.o: same54_lib/ethernet_phy.c  .generated_files/flags/default/430a0228e3b548a619e5ee8cd5677193574093b1 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/ethernet_phy.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/ethernet_phy.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/ethernet_phy.o.d" -o ${OBJECTDIR}/same54_lib/ethernet_phy.o same54_lib/ethernet_phy.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/ethernet_phy_main.o: same54_lib/ethernet_phy_main.c  .generated_files/flags/default/867b21120424950a63ec563f7b2d13ff7a5781ee .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/ethernet_phy_main.o: same54_lib/ethernet_phy_main.c  .generated_files/flags/default/2d9c778c86c78006b6e044f8876f74e22f2f9f5f .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/ethernet_phy_main.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/ethernet_phy_main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/ethernet_phy_main.o.d" -o ${OBJECTDIR}/same54_lib/ethernet_phy_main.o same54_lib/ethernet_phy_main.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_atomic.o: same54_lib/hal_atomic.c  .generated_files/flags/default/3588037c5acff117108f005686e5218637e85805 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_atomic.o: same54_lib/hal_atomic.c  .generated_files/flags/default/182ac2787ce4c5cf72dc6bfd0714d88769ae57ea .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_atomic.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_atomic.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_atomic.o.d" -o ${OBJECTDIR}/same54_lib/hal_atomic.o same54_lib/hal_atomic.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_cache.o: same54_lib/hal_cache.c  .generated_files/flags/default/ca7d99b2d13b9d7557fe266d596b352cac272d76 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_cache.o: same54_lib/hal_cache.c  .generated_files/flags/default/a1ead5df9956ad7bf2ab1ea49437d543eda548f .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_cache.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_cache.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_cache.o.d" -o ${OBJECTDIR}/same54_lib/hal_cache.o same54_lib/hal_cache.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_delay.o: same54_lib/hal_delay.c  .generated_files/flags/default/b35578947c3092d2fd235528e4dd2fb51a395b0b .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_delay.o: same54_lib/hal_delay.c  .generated_files/flags/default/f2f44894a2ad4d6a9ec7ee7f6999287eda318f2a .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_delay.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_delay.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_delay.o.d" -o ${OBJECTDIR}/same54_lib/hal_delay.o same54_lib/hal_delay.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_gpio.o: same54_lib/hal_gpio.c  .generated_files/flags/default/2e372fcd4ae1c03c93e7b8c64c86a194e000a0a3 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_gpio.o: same54_lib/hal_gpio.c  .generated_files/flags/default/5164a8887b4800d866edc8621a1ec790497299e3 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_gpio.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_gpio.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_gpio.o.d" -o ${OBJECTDIR}/same54_lib/hal_gpio.o same54_lib/hal_gpio.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o: same54_lib/hal_i2c_m_sync.c  .generated_files/flags/default/35c2edf87c428713f4fae3db103a6e1a472469aa .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o: same54_lib/hal_i2c_m_sync.c  .generated_files/flags/default/9a14348b54dfaa107f6921cfbe39e32f6e04c2d5 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o.d" -o ${OBJECTDIR}/same54_lib/hal_i2c_m_sync.o same54_lib/hal_i2c_m_sync.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_init.o: same54_lib/hal_init.c  .generated_files/flags/default/1c94f68b2a5754d7bbb29e87fc97a339a5ca3b31 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_init.o: same54_lib/hal_init.c  .generated_files/flags/default/5859f90e9443a04cd5f5d7022868f26bd20e12b3 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_init.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_init.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_init.o.d" -o ${OBJECTDIR}/same54_lib/hal_init.o same54_lib/hal_init.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_io.o: same54_lib/hal_io.c  .generated_files/flags/default/416b5362707a3c0103a03c3a721a22321ae643ce .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_io.o: same54_lib/hal_io.c  .generated_files/flags/default/37b5e1fd5dc5ca637d285b709f3bb9fe5dbb78d7 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_io.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_io.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_io.o.d" -o ${OBJECTDIR}/same54_lib/hal_io.o same54_lib/hal_io.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_mac_async.o: same54_lib/hal_mac_async.c  .generated_files/flags/default/d3ba5d3136ce71338bdf5ef23f90b17b8f270e1b .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_mac_async.o: same54_lib/hal_mac_async.c  .generated_files/flags/default/d6226755a8f02baffd5f55182eacee6e4727c4c2 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_mac_async.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_mac_async.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_mac_async.o.d" -o ${OBJECTDIR}/same54_lib/hal_mac_async.o same54_lib/hal_mac_async.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_sleep.o: same54_lib/hal_sleep.c  .generated_files/flags/default/ddb30968ba25cc017dca0f9bd0348fa6a35e4488 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_sleep.o: same54_lib/hal_sleep.c  .generated_files/flags/default/620d4008d8f9c3cb6442a694aba22f84fee6d681 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_sleep.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_sleep.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_sleep.o.d" -o ${OBJECTDIR}/same54_lib/hal_sleep.o same54_lib/hal_sleep.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_usart_sync.o: same54_lib/hal_usart_sync.c  .generated_files/flags/default/9b37e5b801148ff9203b458e05a961065dcfe809 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_usart_sync.o: same54_lib/hal_usart_sync.c  .generated_files/flags/default/2434334438fefd2e7af491647c938aed1036a098 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_usart_sync.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_usart_sync.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_usart_sync.o.d" -o ${OBJECTDIR}/same54_lib/hal_usart_sync.o same54_lib/hal_usart_sync.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_cmcc.o: same54_lib/hpl_cmcc.c  .generated_files/flags/default/8ee5e05b4f809ed938b071fff52ae5e80d16ac17 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_cmcc.o: same54_lib/hpl_cmcc.c  .generated_files/flags/default/4ef68f58faaf3d64b4f6b3aed54a6e5d614354a9 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_cmcc.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_cmcc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_cmcc.o.d" -o ${OBJECTDIR}/same54_lib/hpl_cmcc.o same54_lib/hpl_cmcc.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_core_m4.o: same54_lib/hpl_core_m4.c  .generated_files/flags/default/c9bc437b6bee830454b0f947e9fb0cc7438c4e5c .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_core_m4.o: same54_lib/hpl_core_m4.c  .generated_files/flags/default/d70d7455c36cda7fbb276c9e9692b6e55a024c33 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_core_m4.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_core_m4.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_core_m4.o.d" -o ${OBJECTDIR}/same54_lib/hpl_core_m4.o same54_lib/hpl_core_m4.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_dmac.o: same54_lib/hpl_dmac.c  .generated_files/flags/default/52c2bfafef5043acd3f398a618ddcb5e5b2c88cc .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_dmac.o: same54_lib/hpl_dmac.c  .generated_files/flags/default/23ce515f5e33d8a44790c879bd8829095980befe .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_dmac.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_dmac.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_dmac.o.d" -o ${OBJECTDIR}/same54_lib/hpl_dmac.o same54_lib/hpl_dmac.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_gclk.o: same54_lib/hpl_gclk.c  .generated_files/flags/default/b0d4c5c2f93c7b4ec71ab15e36954f30cd4587ac .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_gclk.o: same54_lib/hpl_gclk.c  .generated_files/flags/default/71439b1da20bb27cc5051c520ac12f2ff96f6bcf .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_gclk.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_gclk.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_gclk.o.d" -o ${OBJECTDIR}/same54_lib/hpl_gclk.o same54_lib/hpl_gclk.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_gmac.o: same54_lib/hpl_gmac.c  .generated_files/flags/default/350eca8fd30a02068c43c359e43183a998357aa5 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_gmac.o: same54_lib/hpl_gmac.c  .generated_files/flags/default/1b6e0dba4763b50b015f7aec44f77efdddff6b60 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_gmac.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_gmac.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_gmac.o.d" -o ${OBJECTDIR}/same54_lib/hpl_gmac.o same54_lib/hpl_gmac.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_init.o: same54_lib/hpl_init.c  .generated_files/flags/default/8e82877883e895aa7acaf6975bc286ad02b6dd35 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_init.o: same54_lib/hpl_init.c  .generated_files/flags/default/bd860e949f25ca4593f632f731c9b475d8d3673f .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_init.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_init.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_init.o.d" -o ${OBJECTDIR}/same54_lib/hpl_init.o same54_lib/hpl_init.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_mclk.o: same54_lib/hpl_mclk.c  .generated_files/flags/default/c58b5fbd5eab56f4aca80ec9c1847fadfded2940 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_mclk.o: same54_lib/hpl_mclk.c  .generated_files/flags/default/ad78336fc629b7f80feb66700e458819631675c1 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_mclk.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_mclk.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_mclk.o.d" -o ${OBJECTDIR}/same54_lib/hpl_mclk.o same54_lib/hpl_mclk.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o: same54_lib/hpl_osc32kctrl.c  .generated_files/flags/default/7b4cbae92ea04cdcc6b44491ea4e98193bcbb854 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o: same54_lib/hpl_osc32kctrl.c  .generated_files/flags/default/7d9f27cdf9e84afaf48a6c4d5a78a9963506281a .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o.d" -o ${OBJECTDIR}/same54_lib/hpl_osc32kctrl.o same54_lib/hpl_osc32kctrl.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_oscctrl.o: same54_lib/hpl_oscctrl.c  .generated_files/flags/default/124de99879eab1ac2f5c0d9ec3045d21d53434d5 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_oscctrl.o: same54_lib/hpl_oscctrl.c  .generated_files/flags/default/aba21b82cae1fd8bc14c0454638c22f2eff945c2 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_oscctrl.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_oscctrl.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_oscctrl.o.d" -o ${OBJECTDIR}/same54_lib/hpl_oscctrl.o same54_lib/hpl_oscctrl.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_pm.o: same54_lib/hpl_pm.c  .generated_files/flags/default/de84566ca1dc336c800d229076f33874b75b7eb4 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_pm.o: same54_lib/hpl_pm.c  .generated_files/flags/default/d1f2e22a085160bf1be648283181d2c7aa231064 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_pm.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_pm.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_pm.o.d" -o ${OBJECTDIR}/same54_lib/hpl_pm.o same54_lib/hpl_pm.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_ramecc.o: same54_lib/hpl_ramecc.c  .generated_files/flags/default/214534048bdec4e719f28138fe35f362ed23e9ee .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_ramecc.o: same54_lib/hpl_ramecc.c  .generated_files/flags/default/96a3f26953ace88f600ffa11bcc8121d6daa631a .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_ramecc.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_ramecc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_ramecc.o.d" -o ${OBJECTDIR}/same54_lib/hpl_ramecc.o same54_lib/hpl_ramecc.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_sercom.o: same54_lib/hpl_sercom.c  .generated_files/flags/default/62384d55a0f6290185e1dbdfff679be7d56f2357 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_sercom.o: same54_lib/hpl_sercom.c  .generated_files/flags/default/e6b5e2a8bc12544b016b19ac986b0fd2f8bf9f8 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_sercom.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_sercom.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hpl_sercom.o.d" -o ${OBJECTDIR}/same54_lib/hpl_sercom.o same54_lib/hpl_sercom.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/read.o: same54_lib/read.c  .generated_files/flags/default/ca3212973929809e16b7f67c005a1b667a483e6 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/read.o: same54_lib/read.c  .generated_files/flags/default/63455fcb5228ab3a367d955eedd11562abce76e1 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/read.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/read.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/read.o.d" -o ${OBJECTDIR}/same54_lib/read.o same54_lib/read.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/stdio_io.o: same54_lib/stdio_io.c  .generated_files/flags/default/9206661e13f36d5d21b1a5b8b4d67038f0607079 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/stdio_io.o: same54_lib/stdio_io.c  .generated_files/flags/default/57d27bccee0da9fd4e35fb99dd1c3d9291f1c252 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/stdio_io.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/stdio_io.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/stdio_io.o.d" -o ${OBJECTDIR}/same54_lib/stdio_io.o same54_lib/stdio_io.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/stdio_start.o: same54_lib/stdio_start.c  .generated_files/flags/default/c476c7a69477b1b5cdd3756abe42865bd09f2702 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/stdio_start.o: same54_lib/stdio_start.c  .generated_files/flags/default/25ffcadccfe94d61266466c5864d05788407143e .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/stdio_start.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/stdio_start.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/stdio_start.o.d" -o ${OBJECTDIR}/same54_lib/stdio_start.o same54_lib/stdio_start.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/system_same54.o: same54_lib/system_same54.c  .generated_files/flags/default/946ac6b3baf0cc5703464fd82ba26e34c873e4dd .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/system_same54.o: same54_lib/system_same54.c  .generated_files/flags/default/ce7e0de79c36894d625410dbc641a5b3d096b95c .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/system_same54.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/system_same54.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/system_same54.o.d" -o ${OBJECTDIR}/same54_lib/system_same54.o same54_lib/system_same54.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/write.o: same54_lib/write.c  .generated_files/flags/default/1df3aca541ae333d77c04de5a61621e9ae3a1d1 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/write.o: same54_lib/write.c  .generated_files/flags/default/68a4061d7d0e7d6f8a5567e1048887ca623afdb8 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/write.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/write.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/write.o.d" -o ${OBJECTDIR}/same54_lib/write.o same54_lib/write.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/driver_init_flash.o: same54_lib/driver_init_flash.c  .generated_files/flags/default/f587c71248d9e8d7308b04fce2b5e65409b39d16 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/driver_init_flash.o: same54_lib/driver_init_flash.c  .generated_files/flags/default/6dced491ff5d4bfc942b7406ab3840d7198aef96 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/driver_init_flash.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/driver_init_flash.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/driver_init_flash.o.d" -o ${OBJECTDIR}/same54_lib/driver_init_flash.o same54_lib/driver_init_flash.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hal_flash.o: same54_lib/hal_flash.c  .generated_files/flags/default/1d7d4471a11dba92683279df200c15f7aed68ca6 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hal_flash.o: same54_lib/hal_flash.c  .generated_files/flags/default/86a76ec2e7e83641bd7842c4fa82da941a302de .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_flash.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hal_flash.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../sample_azure_iot_embedded_sdk_pnp" -I"../threadx/common/inc" -I"../threadx/ports/cortex_m4/gnu/inc" -I"../netxduo/common/inc" -I"../netxduo/ports/cortex_m4/gnu/inc" -fno-common -I"same54_lib" -I"same54_lib/component" -I"same54_lib/instance" -I"same54_lib/pio" -I"../nxd/nxd" -I"../tx/tx" -MP -MMD -MF "${OBJECTDIR}/same54_lib/hal_flash.o.d" -o ${OBJECTDIR}/same54_lib/hal_flash.o same54_lib/hal_flash.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/same54_lib/hpl_nvmctrl.o: same54_lib/hpl_nvmctrl.c  .generated_files/flags/default/fbcce0fc3a96ee8fa49a72f68454e9b963cc8273 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/same54_lib/hpl_nvmctrl.o: same54_lib/hpl_nvmctrl.c  .generated_files/flags/default/5dccf2d4affc416aa617724fb195ffd7f48d1eda .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/same54_lib" 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_nvmctrl.o.d 
 	@${RM} ${OBJECTDIR}/same54_lib/hpl_nvmctrl.o 

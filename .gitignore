@@ -10,3 +10,7 @@
 /ATSAME54-XPRO/mplab/sample_azure_iot_embedded_sdk_pnp/build/
 /ATSAME54-XPRO/mplab/sample_azure_iot_embedded_sdk_pnp/dist/
 /ATSAME54-XPRO/mplab/sample_azure_iot_embedded_sdk_pnp/.generated_files/
+/WFI32-IoT/ota_bootloader/firmware/ota_bootloader_wolfcrypt.X/build/
+/WFI32-IoT/ota_bootloader/firmware/ota_bootloader_wolfcrypt.X/dist/
+/WFI32-IoT/ota_bootloader/firmware/ota_bootloader_wolfcrypt.X/.generated_files/
+
