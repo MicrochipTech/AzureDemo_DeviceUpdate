@@ -15,10 +15,9 @@ Click [here](https://learn.microsoft.com/en-us/azure/iot-hub-device-update/under
 
 Code examples are provided for demonstrating Azure Device Update (ADU) on the [SAM E54 Xplained Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/atsame54-xpro) and [WFI32-IoT Development Board](https://www.microchip.com/en-us/development-tool/ev36w50a).
 
-Follow the procedures in the provided user guides based on the development board(s) of interest:
+Follow the procedures in the provided user guides based on the development board(s) of interest (click on each of the following links to go to the location of the corresponding user guide):
 
-- [ATSAME54-XPRO](./ATSAME54-XPRO/UserGuide_DeviceUpdate_ATSAME54-XPRO.docx)
-- [WFI32-IoT](./WFI32-IoT/UserGuide_DeviceUpdate_WFI32-IoT.docx)
-
+- [ATSAME54-XPRO](./ATSAME54-XPRO/docs/) (Ethernet connection)
+- [WFI32-IoT](./WFI32-IoT/docs/) (Wireless connection)
 
 

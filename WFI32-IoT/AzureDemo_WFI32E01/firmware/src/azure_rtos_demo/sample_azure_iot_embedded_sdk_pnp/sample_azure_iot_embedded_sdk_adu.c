@@ -12,7 +12,7 @@
 
 /* Device properties.  */
 #ifndef SAMPLE_DEVICE_MANUFACTURER
-#define SAMPLE_DEVICE_MANUFACTURER                                      "Contoso"
+#define SAMPLE_DEVICE_MANUFACTURER                                      "Microchip"
 #endif /* SAMPLE_DEVICE_MANUFACTURER*/
 
 #ifndef SAMPLE_DEVICE_MODEL
@@ -26,7 +26,7 @@
 #if (NX_AZURE_IOT_ADU_AGENT_PROXY_UPDATE_COUNT >= 1)
 /* Device properties.  */
 #ifndef SAMPLE_LEAF_DEVICE_MANUFACTURER
-#define SAMPLE_LEAF_DEVICE_MANUFACTURER                                 "Contoso"
+#define SAMPLE_LEAF_DEVICE_MANUFACTURER                                 "Microchip"
 #endif /* SAMPLE_LEAF_DEVICE_MANUFACTURER*/
 
 #ifndef SAMPLE_LEAF_DEVICE_MODEL
