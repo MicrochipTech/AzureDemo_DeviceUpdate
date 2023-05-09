@@ -23,21 +23,36 @@
 #include "system/debug/sys_debug.h"
 #define NX_AZURE_DISABLE_IOT_SECURITY_MODULE
 
+//#define _ATSAME54
+#define _WFI32E01
+
 #define SAMPLE_NETWORK_DRIVER nx_driver_harmony
 #define SAMPLE_BOARD_SETUP SYS_Initialize
 /* Device information for Azure IoT.  */  
 #define NX_AZURE_IOT_HUB_CLIENT_USER_AGENT_DEVICE_VENDOR 3  
-#define NX_AZURE_IOT_HUB_CLIENT_USER_AGENT_DEVICE_TYPE "SAME54"  
-//#define NX_AZURE_IOT_HUB_CLIENT_USER_AGENT_DEVICE_TYPE "WFI32"  
+#ifdef _ATSAME54
+    #define NX_AZURE_IOT_HUB_CLIENT_USER_AGENT_DEVICE_TYPE "SAME54"  
+#endif
+#ifdef _WFI32E01
+    #define NX_AZURE_IOT_HUB_CLIENT_USER_AGENT_DEVICE_TYPE "WFI32"  
+#endif
 
 /* Device information for Azure Device Update.  */ 
 //#define NX_AZURE_IOT_ADU_AGENT_PROXY_UPDATE_COUNT 1
 #define SAMPLE_DEVICE_MANUFACTURER "MICROCHIP"
-#define SAMPLE_DEVICE_MODEL        "SAME54"
-//#define SAMPLE_DEVICE_MODEL        "WFI32"
+#ifdef _ATSAME54
+    #define SAMPLE_DEVICE_MODEL        "SAME54"
+#endif
+#ifdef _WFI32E01
+    #define SAMPLE_DEVICE_MODEL        "WFI32"
+#endif
 #define SAMPLE_LEAF_DEVICE_MANUFACTURER "MICROCHIP"
-#define SAMPLE_LEAF_DEVICE_MODEL        "SAME54-Leaf"
-//#define SAMPLE_LEAF_DEVICE_MODEL        "WFI32-Leaf"
+#ifdef _ATSAME54
+    #define SAMPLE_LEAF_DEVICE_MODEL        "SAME54-Leaf"
+#endif
+#ifdef _WFI32E01
+    #define SAMPLE_LEAF_DEVICE_MODEL        "WFI32-Leaf"
+#endif
 
 /* NetX */
 //#define NX_DNS_CLIENT_USER_CREATE_PACKET_POOL

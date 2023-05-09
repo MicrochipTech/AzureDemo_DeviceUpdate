@@ -65,13 +65,11 @@ TODO`s: Configure core settings of application for your IoTHub.
    DEVICE_ID can be set to <device1>,
    DEVICE_SYMMETRIC_KEY can be set to <key1>.  */
 #ifndef HOST_NAME
-//#define HOST_NAME                                   "ADU-IoTHub.azure-devices.net"
-#define HOST_NAME                                   "azurertos-adu.azure-devices.net"
+#define HOST_NAME                                   "ADU-IoTHub.azure-devices.net"
 #endif /* HOST_NAME */
 
 #ifndef DEVICE_ID
-//#define DEVICE_ID                                   "WFI32-IoT"
-#define DEVICE_ID                                   "wen-wfi32"
+#define DEVICE_ID                                   "WFI32-IoT"
 #endif /* DEVICE_ID */
 
 #else /* !ENABLE_DPS_SAMPLE */
@@ -93,8 +91,7 @@ TODO`s: Configure core settings of application for your IoTHub.
 
 /* Optional SYMMETRIC KEY.  */
 #ifndef DEVICE_SYMMETRIC_KEY
-//#define DEVICE_SYMMETRIC_KEY                        "mWFZ695gwrBhWgV+I6Z/LaBbcAvdJMqMCaMv6j6aVKE="
-#define DEVICE_SYMMETRIC_KEY                        "PaoZXSq7xRqD0T2u0tJDmP9XRaQ/I/1JF0P4IOsww4Q="
+#define DEVICE_SYMMETRIC_KEY                        "mWFZ695gwrBhWgV+I6Z/LaBbcAvdJMqMCaMv6j6aVKE="
 #endif /* DEVICE_SYMMETRIC_KEY */
 
 /* Optional module ID.  */

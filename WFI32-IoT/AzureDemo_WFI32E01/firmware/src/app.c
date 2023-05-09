@@ -117,16 +117,10 @@ wifiCred wifi;
 //#error "The demo needs XC32 version 4.10"
 #endif
 
-#if 0
 /* Default STA credentials */
 #define APP_STA_DEFAULT_SSID        "wsn"
 #define APP_STA_DEFAULT_PASSPHRASE  "brucenegley"
 #define APP_STA_DEFAULT_AUTH        WPAWPA2MIXED
-#endif
-
-#define APP_STA_DEFAULT_SSID        "MSFTGUEST"
-#define APP_STA_DEFAULT_PASSPHRASE  ""
-#define APP_STA_DEFAULT_AUTH        OPEN
 
 /* Wi-Fi credentials status*/
 #define CREDENTIALS_UNINITIALIZED       0

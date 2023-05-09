@@ -25,12 +25,12 @@ Param(
     # Path of host update firmware
     [Parameter(Mandatory=$true, HelpMessage = "Optional, the path of host update. E.g. ./firmware_2.0.0.bin")]
     [AllowEmptyString()]
-    [string] $HostPath,
+    [string] $HostPath#,
     
     # Path of leaf update firmware
-    [Parameter(Mandatory=$true, HelpMessage = "Optional, the path of leaf update. E.g. ./leaf_firmware_2.0.0.bin")]
-    [AllowEmptyString()]
-    [string] $LeafPath
+    #[Parameter(Mandatory=$true, HelpMessage = "Optional, the path of leaf update. E.g. ./leaf_firmware_2.0.0.bin")]
+    #[AllowEmptyString()]
+    #[string] $LeafPath
 )
 
 # Compatibility for host device
@@ -38,21 +38,21 @@ $DeviceManufacturer = "MICROCHIP"
 $DeviceModel = "WFI32"
 
 # Compatibility for leaf device
-$LeafDeviceManufacturer = "MICROCHIP"
-$LeafDeviceModel = "WFI32-Leaf"
+#$LeafDeviceManufacturer = "MICROCHIP"
+#$LeafDeviceModel = "WFI32-Leaf"
 
 # Output Manifest Path 
 $OutputManifestPath = '.'
 
 #Set the internal variables.
 $UpdateVersion = $Version
-$LeafUpdateVersion = $Version
+#$LeafUpdateVersion = $Version
 $Path = $HostPath
 $filename = $HostPath.split('/')[-1] -replace '.[^.]+$'
 $CriteriaVersion = $filename -replace ($filename -split "\d+")[0]
-$LeafPath = $LeafPath
-$LeafFilename = $LeafPath.split('/')[-1] -replace '.[^.]+$'
-$LeafCriteriaVersion = $LeafFilename -replace ($LeafFilename -split "\d+")[0]
+#$LeafPath = $LeafPath
+#$LeafFilename = $LeafPath.split('/')[-1] -replace '.[^.]+$'
+#$LeafCriteriaVersion = $LeafFilename -replace ($LeafFilename -split "\d+")[0]
 
 if (!$Path -And !$LeafPath) {
     Write-Host "Must input at least one path!" -ForegroundColor red -BackgroundColor Black
