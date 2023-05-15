@@ -15,7 +15,14 @@ Click [here](https://learn.microsoft.com/en-us/azure/iot-hub-device-update/under
 
 Code examples are provided for demonstrating Azure Device Update (ADU) on the [SAM E54 Xplained Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/atsame54-xpro) and [WFI32-IoT Development Board](https://www.microchip.com/en-us/development-tool/ev36w50a).
 
-Follow the procedures in the provided user guides based on the development board(s) of interest (click on each of the following links to go to the location of the corresponding user guide):
+The memory requirements for the ADU agent for each example are as follows:
+
+- ATSAME54: 10KB Flash + 10KB RAM 
+- WFI32: 10KB Flash + 10KB RAM 
+
+The ADU agent is started and when notified by its IoT Hub that a Device Firmware Update (DFU) is required, the agent downloads the image from the IoT Hub while the application is running. The process basically writes one block of the new image to external flash memory after downloading one block. The file written to the external flash memory is named “image.bin”. When the final block has been received and the download process has finished, the system will reset itself to run the bootloader. The bootloader will then look into the external flash memory for a file named “image.bin”. If the file is found, that means there is a firmware upgrade that needs to happen. The bootloader will copy the image from external flash into its internal flash, erase the binary file from the external flash, and then jump to the start of the new application.
+
+In order to set up the ADU agent examples, follow the procedures in the provided user guides based on the development board(s) of interest (click on each of the following links to go to the location of the corresponding user guide for the board):
 
 - [ATSAME54-XPRO](./ATSAME54-XPRO/docs/) (Ethernet connection)
 - [WFI32-IoT](./WFI32-IoT/docs/) (Wireless connection)
